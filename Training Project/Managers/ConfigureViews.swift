@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+// буду делать функции которые создают вью что бы не засорять вью контроллер
 class ConfigureViews {
     static let share = ConfigureViews()
 }
