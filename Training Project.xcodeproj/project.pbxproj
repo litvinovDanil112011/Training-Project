@@ -14,6 +14,7 @@
 		FA8446E92C22248900051BCC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FA8446E82C22248900051BCC /* Base */; };
 		FAEA540A2C22306D00AFBA1A /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54092C22306D00AFBA1A /* MailViewController.swift */; };
 		FAEA540C2C235C8A00AFBA1A /* ConfigureViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA540B2C235C8A00AFBA1A /* ConfigureViews.swift */; };
+		FAEA54112C42EAE600AFBA1A /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54102C42EAE600AFBA1A /* Cordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FA8446EA2C22248900051BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEA54092C22306D00AFBA1A /* MailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
 		FAEA540B2C235C8A00AFBA1A /* ConfigureViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureViews.swift; sourceTree = "<group>"; };
+		FAEA54102C42EAE600AFBA1A /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FA8446F22C2226A700051BCC /* Resourse */,
 				FA8446F32C22272800051BCC /* Managers */,
 				FA8446F12C22269400051BCC /* Moduls */,
+				FAEA540D2C42E9FF00AFBA1A /* NavigationLayer */,
 			);
 			path = "Training Project";
 			sourceTree = "<group>";
@@ -108,6 +111,30 @@
 				FAEA54092C22306D00AFBA1A /* MailViewController.swift */,
 			);
 			path = MailScreen;
+			sourceTree = "<group>";
+		};
+		FAEA540D2C42E9FF00AFBA1A /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA540F2C42EA2F00AFBA1A /* Cordinator */,
+				FAEA540E2C42EA2400AFBA1A /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		FAEA540E2C42EA2400AFBA1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAEA540F2C42EA2F00AFBA1A /* Cordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA54102C42EAE600AFBA1A /* Cordinator.swift */,
+			);
+			path = Cordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEA54112C42EAE600AFBA1A /* Cordinator.swift in Sources */,
 				FA8446DA2C22248800051BCC /* AppDelegate.swift in Sources */,
 				FA8446DC2C22248800051BCC /* SceneDelegate.swift in Sources */,
 				FA8446E42C22248800051BCC /* Training_Project.xcdatamodeld in Sources */,
