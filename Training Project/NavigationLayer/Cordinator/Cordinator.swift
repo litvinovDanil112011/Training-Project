@@ -57,7 +57,7 @@ class Cordinator: CoordinatorProtocol {
         print("Cordinator Finish")
     }
     //MARK: - init / deinit
-    init(childCordinates: [any CoordinatorProtocol], type: CordinatorsType, navigationsControler: UINavigationController? = nil, finishDelegete: (any CoordinatorFinishDelegete)? = nil) {
+    init(childCordinates: [CoordinatorProtocol] = [CoordinatorProtocol](), type: CordinatorsType, navigationsControler: UINavigationController? = nil, finishDelegete: (any CoordinatorFinishDelegete)? = nil) {
         self.childCordinates = childCordinates
         self.type = type
         self.navigationsControler = navigationsControler

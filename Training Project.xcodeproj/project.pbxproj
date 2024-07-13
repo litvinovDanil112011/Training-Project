@@ -16,6 +16,7 @@
 		FAEA540C2C235C8A00AFBA1A /* ConfigureViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA540B2C235C8A00AFBA1A /* ConfigureViews.swift */; };
 		FAEA54112C42EAE600AFBA1A /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54102C42EAE600AFBA1A /* Cordinator.swift */; };
 		FAEA54132C42F15600AFBA1A /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54122C42F15600AFBA1A /* AppCordinator.swift */; };
+		FAEA54152C42F3C900AFBA1A /* OnbordingCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54142C42F3C900AFBA1A /* OnbordingCordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FAEA540B2C235C8A00AFBA1A /* ConfigureViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureViews.swift; sourceTree = "<group>"; };
 		FAEA54102C42EAE600AFBA1A /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 		FAEA54122C42F15600AFBA1A /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
+		FAEA54142C42F3C900AFBA1A /* OnbordingCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingCordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			children = (
 				FAEA54102C42EAE600AFBA1A /* Cordinator.swift */,
 				FAEA54122C42F15600AFBA1A /* AppCordinator.swift */,
+				FAEA54142C42F3C900AFBA1A /* OnbordingCordinator.swift */,
 			);
 			path = Cordinator;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				FAEA54112C42EAE600AFBA1A /* Cordinator.swift in Sources */,
 				FA8446DA2C22248800051BCC /* AppDelegate.swift in Sources */,
 				FA8446DC2C22248800051BCC /* SceneDelegate.swift in Sources */,
+				FAEA54152C42F3C900AFBA1A /* OnbordingCordinator.swift in Sources */,
 				FA8446E42C22248800051BCC /* Training_Project.xcdatamodeld in Sources */,
 				FAEA540A2C22306D00AFBA1A /* MailViewController.swift in Sources */,
 				FAEA540C2C235C8A00AFBA1A /* ConfigureViews.swift in Sources */,
