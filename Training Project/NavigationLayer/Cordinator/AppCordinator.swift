@@ -28,8 +28,9 @@ private extension AppCordinator {
         addChildCordinator(onbordingCordinator)
         onbordingCordinator.start()
     }
-    
+    //MARK: - TabBarController
     func showMail() {
+        guard let navigationsControler = navigationsControler else { return print("showMail() erro")}
         
     }
 }

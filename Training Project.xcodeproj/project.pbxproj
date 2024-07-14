@@ -17,6 +17,11 @@
 		FAEA54112C42EAE600AFBA1A /* Cordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54102C42EAE600AFBA1A /* Cordinator.swift */; };
 		FAEA54132C42F15600AFBA1A /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54122C42F15600AFBA1A /* AppCordinator.swift */; };
 		FAEA54152C42F3C900AFBA1A /* OnbordingCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54142C42F3C900AFBA1A /* OnbordingCordinator.swift */; };
+		FAEA54172C42FCE600AFBA1A /* HomeCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54162C42FCE600AFBA1A /* HomeCordinator.swift */; };
+		FAEA54192C42FE1B00AFBA1A /* ListCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA54182C42FE1B00AFBA1A /* ListCordinator.swift */; };
+		FAEA541B2C42FE3B00AFBA1A /* OrderCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA541A2C42FE3B00AFBA1A /* OrderCordinator.swift */; };
+		FAEA541D2C42FE5F00AFBA1A /* ProFileCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA541C2C42FE5F00AFBA1A /* ProFileCordinator.swift */; };
+		FAEA541F2C42FF3900AFBA1A /* TabBarControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA541E2C42FF3900AFBA1A /* TabBarControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		FAEA54102C42EAE600AFBA1A /* Cordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordinator.swift; sourceTree = "<group>"; };
 		FAEA54122C42F15600AFBA1A /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
 		FAEA54142C42F3C900AFBA1A /* OnbordingCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingCordinator.swift; sourceTree = "<group>"; };
+		FAEA54162C42FCE600AFBA1A /* HomeCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCordinator.swift; sourceTree = "<group>"; };
+		FAEA54182C42FE1B00AFBA1A /* ListCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCordinator.swift; sourceTree = "<group>"; };
+		FAEA541A2C42FE3B00AFBA1A /* OrderCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCordinator.swift; sourceTree = "<group>"; };
+		FAEA541C2C42FE5F00AFBA1A /* ProFileCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProFileCordinator.swift; sourceTree = "<group>"; };
+		FAEA541E2C42FF3900AFBA1A /* TabBarControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +139,7 @@
 		FAEA540E2C42EA2400AFBA1A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAEA541E2C42FF3900AFBA1A /* TabBarControler.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +150,10 @@
 				FAEA54102C42EAE600AFBA1A /* Cordinator.swift */,
 				FAEA54122C42F15600AFBA1A /* AppCordinator.swift */,
 				FAEA54142C42F3C900AFBA1A /* OnbordingCordinator.swift */,
+				FAEA54162C42FCE600AFBA1A /* HomeCordinator.swift */,
+				FAEA541C2C42FE5F00AFBA1A /* ProFileCordinator.swift */,
+				FAEA54182C42FE1B00AFBA1A /* ListCordinator.swift */,
+				FAEA541A2C42FE3B00AFBA1A /* OrderCordinator.swift */,
 			);
 			path = Cordinator;
 			sourceTree = "<group>";
@@ -213,14 +228,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEA54192C42FE1B00AFBA1A /* ListCordinator.swift in Sources */,
 				FAEA54112C42EAE600AFBA1A /* Cordinator.swift in Sources */,
 				FA8446DA2C22248800051BCC /* AppDelegate.swift in Sources */,
 				FA8446DC2C22248800051BCC /* SceneDelegate.swift in Sources */,
+				FAEA54172C42FCE600AFBA1A /* HomeCordinator.swift in Sources */,
 				FAEA54152C42F3C900AFBA1A /* OnbordingCordinator.swift in Sources */,
 				FA8446E42C22248800051BCC /* Training_Project.xcdatamodeld in Sources */,
 				FAEA540A2C22306D00AFBA1A /* MailViewController.swift in Sources */,
+				FAEA541D2C42FE5F00AFBA1A /* ProFileCordinator.swift in Sources */,
 				FAEA540C2C235C8A00AFBA1A /* ConfigureViews.swift in Sources */,
 				FAEA54132C42F15600AFBA1A /* AppCordinator.swift in Sources */,
+				FAEA541B2C42FE3B00AFBA1A /* OrderCordinator.swift in Sources */,
+				FAEA541F2C42FF3900AFBA1A /* TabBarControler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
